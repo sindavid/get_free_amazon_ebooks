@@ -3,5 +3,5 @@ geckodriver.log
 config/user.py
 .idea
 config/__pycache__
-venv
 service/__pycache__
+venv
