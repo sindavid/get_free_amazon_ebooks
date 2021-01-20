@@ -1,4 +1,4 @@
 user = {
     'email': 'teste@teste.com',
-    'senha': 'teste'
+    'password': 'teste'
 }
