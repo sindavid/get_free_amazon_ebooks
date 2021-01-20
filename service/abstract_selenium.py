@@ -77,7 +77,8 @@ class AbstractSelenium:
                     self.__current_url = self.browser.current_url
                     try:
                         for i in range(1, 17):
-                            print("\n\nComprando '" + self.browser.find_element_by_xpath(elements['title_ebook'].format(str(i))).text + "'")
+                            title = self.browser.find_element_by_xpath(elements['title_ebook'].format(str(i)))
+                            print("\n\nComprando '" + title.text + "'")
                             if self.__buy_with_one_click(i):
                                 if self.__bought():
                                     pass
