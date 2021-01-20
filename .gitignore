@@ -5,4 +5,3 @@ config/user.py
 config/__pycache__
 service/__pycache__
 venv
-
